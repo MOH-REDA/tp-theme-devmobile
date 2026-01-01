@@ -1,16 +1,57 @@
-# tp_themoti
+# TP Flutter – Styling et Thèmes
 
-A new Flutter project.
+Application Flutter multi-pages avec thème global, menu latéral (Drawer) et avatar.
 
-## Getting Started
+## Description
+Projet réalisé dans le cadre de l’**Atelier 7 – Styling et Thèmes Flutter**.  
+Il met en pratique la gestion des styles, des thèmes globaux et la navigation entre plusieurs pages.
 
-This project is a starting point for a Flutter application.
+## Objectifs
+- Comprendre la différence entre style et thème
+- Centraliser les couleurs et les styles
+- Créer un thème global
+- Créer une application Flutter multi-pages
+- Utiliser un menu latéral (Drawer)
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies
+- Flutter
+- Dart
+- Material Design
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Structure du projet
+```text
+lib/
+├── main.dart
+├── theme/
+│   ├── app_colors.dart
+│   └── app_theme.dart
+├── pages/
+│   ├── home_page.dart
+│   ├── profile_page.dart
+│   ├── settings_page.dart
+│   ├── about_page.dart
+│   └── contact_page.dart
+├── widgets/
+│   └── app_drawer.dart
+assets/
+└── images/
+    └── avatar.png 
+```
+## Pages
+- Accueil
+- Profil
+- Paramètres
+- À propos
+- Contact
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Fonctionnalités
+- Thème global
+- Menu latéral avec avatar
+- Navigation multi-pages
+- Image locale pour l’avatar
+- Boutons stylés via le thème
+
+## Lancer le projet
+```bash
+flutter pub get
+flutter run
